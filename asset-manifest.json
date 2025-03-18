@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/Updated-Exercise-App/static/css/main.f855e6bc.css",
-    "main.js": "/Updated-Exercise-App/static/js/main.4b3d2e7a.js",
-    "static/js/453.9e66e9a6.chunk.js": "/Updated-Exercise-App/static/js/453.9e66e9a6.chunk.js",
-    "index.html": "/Updated-Exercise-App/index.html",
-    "main.f855e6bc.css.map": "/Updated-Exercise-App/static/css/main.f855e6bc.css.map",
-    "main.4b3d2e7a.js.map": "/Updated-Exercise-App/static/js/main.4b3d2e7a.js.map",
-    "453.9e66e9a6.chunk.js.map": "/Updated-Exercise-App/static/js/453.9e66e9a6.chunk.js.map"
+    "main.css": "/exercises-app/static/css/main.71e91ae9.css",
+    "main.js": "/exercises-app/static/js/main.3c44a583.js",
+    "static/js/453.9e66e9a6.chunk.js": "/exercises-app/static/js/453.9e66e9a6.chunk.js",
+    "static/media/cycling.jpg": "/exercises-app/static/media/cycling.c5e89f4b455e87f6cfcc.jpg",
+    "static/media/sit-up.jpg": "/exercises-app/static/media/sit-up.1620638b1c9e5da2dc0e.jpg",
+    "static/media/push-up.jpg": "/exercises-app/static/media/push-up.24e1cae70ad4b4ed48e7.jpg",
+    "static/media/jumping-jack.jpg": "/exercises-app/static/media/jumping-jack.a9528511b4cb77c47e22.jpg",
+    "static/media/run.jpg": "/exercises-app/static/media/run.a24eff52c7e407fe933c.jpg",
+    "static/media/home.png": "/exercises-app/static/media/home.843a8c6ce1fa5a75ee5e.png",
+    "index.html": "/exercises-app/index.html",
+    "main.71e91ae9.css.map": "/exercises-app/static/css/main.71e91ae9.css.map",
+    "main.3c44a583.js.map": "/exercises-app/static/js/main.3c44a583.js.map",
+    "453.9e66e9a6.chunk.js.map": "/exercises-app/static/js/453.9e66e9a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.4b3d2e7a.js"
+    "static/css/main.71e91ae9.css",
+    "static/js/main.3c44a583.js"
   ]
 }
