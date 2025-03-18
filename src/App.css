@@ -1,38 +1,154 @@
-.App {
+* {
+  background-color:rgb(32, 32, 32);
+}
+
+.exer {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+h1 {
+  font-family: 'Cochin';
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-family: 'Cochin';
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-family: 'Cochin';
+  font-size: 30px;
+  color: rgb(206, 0, 0);
+  border-style: solid;
+  border-color: rgb(206, 0, 0);
+  border-width: 5px;
+  border-radius: 50px;
+  width: 150px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li {
+  font-family: 'Cochin';
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  margin-left: -20px;
+  text-decoration: none;
+}
+
+.footer-text {
+  font-family: 'Cochin';
+  font-size: 15px;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  border-style: none;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  bottom: 10px;
+}
+
+.ex-button {
+  background-color: rgb(206, 0, 0);
+  color: white;
+  border-style: solid;
+  border-color: rgb(206, 0, 0);
+  border-width: 1px;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 10px;
+  font-family: 'Cochin';
+  font-size: 22px;
+  width: 200px;
+}
+
+.ex-button:hover {
+  background-color: rgb(161, 0, 0);
+  border-color: rgb(161, 0, 0);
+}
+
+.set-button {
+  background-color: rgb(206, 0, 0);
+  color: white;
+  border-style: solid;
+  border-color: rgb(206, 0, 0);
+  border-width: 1px;
+  border-radius: 25px;
+  padding: 5px;
+  font-family: 'Cochin';
+  font-size: 20px;
+  width: 70px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.set-button:hover {
+  background-color: rgb(161, 0, 0);
+  border-color: rgb(161, 0, 0);
+}
+
+.button-layout {
+  display: flex;
+}
+
+.rep-counter {
+  display: flex;
+  border-style: solid;
+  border-color: rgb(206, 0, 0);
+  border-width: 5px;
+  border-radius: 50px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+}
+
+.rep-button {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(206, 0, 0);
+  border-style: none;
+  font-family: 'Cochin';
+  font-size: 35px;
+  width: 70px;
+}
+
+.rep-button:hover {
+  background-color: rgb(206, 0, 0);
+  color: white;
+  border-radius: 100px;
+}
+
+.rep-value {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(206, 0, 0);
+  border-style: none;
+  font-family: 'Cochin';
+  font-size: 35px;
+  width: fit-content;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.home-button {
+  border-style: none;
+  margin-top: 30px;
 }

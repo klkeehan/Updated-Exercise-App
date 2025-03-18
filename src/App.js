@@ -2,18 +2,22 @@ import React from 'react';
 import { useState } from 'react';
 import DurationExercise from './components/DurationExercise';
 import RepetitionExercise from './components/RepetitionExercise';
+import RunningExercise from './components/RunningExercise';
+import home from './home.png';
+import pushup from './push-up.jpg';
+import situp from './sit-up.jpg';
+import jumpingjack from './jumping-jack.jpg';
 import './App.css';
 
 function App() {
   let defaultContent = (
     <div className='content'>
-      <h1>Go Do Something!</h1>
-      <h2>Select an exercise:</h2>
-      <button onClick={() => repContent('push ups')}>Push Ups</button><br></br>
-      <button onClick={() => duraContent('bicycling')}>Bicycling</button><br></br>
-      <button onClick={() => repContent('jumping jacks')}>Jumping Jacks</button><br></br>
-      <button onClick={() => duraContent('running')}>Running</button><br></br>
-      <button onClick={() => repContent('sit ups')}>Sit Ups</button><br></br>
+      <h1>Exercises</h1>
+      <button className='ex-button' onClick={() => repContent('Push Ups', pushup)}>Push Ups</button><br></br>
+      <button className='ex-button' onClick={() => repContent('Sit Ups', situp)}>Sit Ups</button><br></br>
+      <button className='ex-button' onClick={() => repContent('Jumping Jacks', jumpingjack)}>Jumping Jacks</button><br></br>
+      <button className='ex-button' onClick={() => duraContent('Bicycling')}>Bicycling</button><br></br>
+      <button className='ex-button' onClick={() => runContent('Lap Running')}>Lap Running</button>
     </div>
   );
 
@@ -23,17 +27,22 @@ function App() {
     setContent(defaultContent);
   };
 
-  function repContent(name, func) {
-    setContent(<RepetitionExercise name={name} func={defContent}/>);
+  function repContent(name, pic) {
+    setContent(<RepetitionExercise name={name} func={defContent} img={home} img2={pic}/>);
   };
 
-  function duraContent(name, func) {
-    setContent(<DurationExercise name={name} func={defContent}/>)
+  function duraContent(name) {
+    setContent(<DurationExercise name={name} func={defContent} img={home}/>)
+  };
+
+  function runContent(name) {
+    setContent(<RunningExercise name={name} func={defContent} img={home}/>)
   };
 
   return (
-    <div className='App'>
+    <div className='exer'>
       {content}
+      <p className='footer-text'>made with reactJS by karissa ☻</p>
     </div>
   );
 };
